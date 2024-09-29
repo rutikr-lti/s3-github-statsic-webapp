@@ -40,6 +40,9 @@ env:
   RESOURCE_GROUP: "Devops"
   CLUSTER_NAME: "mycluster1"
   DEPLOYMENT_MANIFEST_PATH: "/root/deployment.yml"
+  AZURE_CLIENT_ID: "e85465ef-b941-48d0-b2cb-0fc0c5fb2dfd"
+  AZURE_TENANT_ID: "4314029f-00cf-4e3f-9247-3b3fc0f7968a"
+  AZURE_SUBSCRIPTION_ID: "074f868b-5bb3-4653-ab03-e7e76170d3f9"
 
 jobs:
   buildImage:
